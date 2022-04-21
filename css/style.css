@@ -210,3 +210,22 @@ section#features {
   grid-template-columns: repeat(2, 1fr);
   gap: 8rem;
 }
+
+/* ================= MEDIA QUERIES (PHONES) ===================== */
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-mobile);
+  }
+
+  /* ========== (PHONES) HEADER ========== */
+
+  .header__bottom h1 {
+    font-size: 1.7rem;
+    width: 100%;
+  }
+
+  .header__bottom p {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+}

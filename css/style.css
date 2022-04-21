@@ -75,11 +75,6 @@ h5 {
   font-size: 1rem;
 }
 
-img {
-  width: 100%;
-  object-fit: cover;
-}
-
 .container {
   width: var(--container-width-desktop);
   max-width: 1800px;
@@ -92,7 +87,7 @@ section {
 }
 
 .btn {
-  background: var(--color-cta-cyan);
+  background: var(--color-cta-blue);
   color: var(--color-white);
   font-weight: 700;
   display: inline-block;
@@ -104,14 +99,14 @@ section {
 }
 
 .btn:hover {
-  background: var(--color-cta-blue);
+  background: var(--color-cta-cyan);
   color: var(--color-white);
 }
 /* --- INITIAL SETUP END */
 
 /* ================= NAVBAR ===================== */
 nav {
-  width: 100vw;
+  width: 100%;
   height: 10rem;
   display: grid;
   place-items: center;
@@ -142,22 +137,27 @@ nav a:hover {
   gap: 4rem;
 }
 
+.nav__logo img {
+  width: 80%;
+}
+
 /* ================= HEADER ===================== */
+
 header {
-  height: calc(100vh - 5rem); /* Height of 100vh minus Top of 5rem*/
-  position: relative;
-  top: 5rem;
-  display: grid;
-  place-items: center;
-  margin-bottom: 10rem;
+  overflow: hidden;
 }
 
 .header__container {
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 2rem;
   justify-content: center;
   align-items: center;
+  background-image: url("../images/bg-curvy-desktop.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .header__top {
@@ -166,6 +166,13 @@ header {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+}
+
+.header__image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .header__bottom {
@@ -178,14 +185,28 @@ header {
 }
 
 .header__bottom h1 {
-  font-size: 3rem;
+  font-size: 2.6rem;
   text-align: center;
   line-height: 1.5;
-  width: 70%;
+  width: 60%;
 }
 
 .header__bottom p {
   font-size: 1.5rem;
+  font-weight: 400;
   text-align: center;
-  width: 60%;
+  width: 49%;
+}
+
+/* ================= FEATURES ===================== */
+section#features {
+  background: var(--color-main-background);
+  margin: 0;
+}
+
+.features__container {
+  padding: 5rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8rem;
 }

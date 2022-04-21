@@ -94,9 +94,10 @@ section {
 .btn {
   background: var(--color-cta-cyan);
   color: var(--color-white);
+  font-weight: 700;
   display: inline-block;
   width: fit-content;
-  padding: 0.8rem 1.6rem;
+  padding: 0.8rem 5rem;
   border-radius: 50px;
   cursor: pointer;
   transition: all 400ms ease;
@@ -114,9 +115,9 @@ nav {
   height: 10rem;
   display: grid;
   place-items: center;
-  position: fixed;
+  /* position: fixed;
   z-index: 2;
-  background-color: var(--color-intro-and-email-background);
+  background-color: var(--color-intro-and-email-background); */
 }
 
 nav a {
@@ -143,7 +144,48 @@ nav a:hover {
 
 /* ================= HEADER ===================== */
 header {
-  height: calc(100vh - 10rem); /* Height of 100vh minus Top of 5rem*/
+  height: calc(100vh - 5rem); /* Height of 100vh minus Top of 5rem*/
   position: relative;
-  top: 10rem;
+  top: 5rem;
+  display: grid;
+  place-items: center;
+  margin-bottom: 10rem;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.header__bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  overflow: hidden;
+}
+
+.header__bottom h1 {
+  font-size: 3rem;
+  text-align: center;
+  line-height: 1.5;
+  width: 70%;
+}
+
+.header__bottom p {
+  font-size: 1.5rem;
+  text-align: center;
+  width: 60%;
 }

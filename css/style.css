@@ -151,11 +151,11 @@ header {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
+  gap: 1rem;
   justify-content: center;
   align-items: center;
   background-image: url("../images/bg-curvy-desktop.svg");
-  background-position: bottom;
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -165,7 +165,6 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
 
 .header__image img {
@@ -181,7 +180,6 @@ header {
   justify-content: center;
   align-items: center;
   gap: 3rem;
-  overflow: hidden;
 }
 
 .header__bottom h1 {
@@ -205,16 +203,38 @@ section#features {
 }
 
 .features__container {
-  padding: 5rem 0;
+  padding: 5rem 0rem;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 8rem;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 40% 40%;
+  gap: 5rem;
+}
+
+.features__section {
+  text-align: center;
+}
+.features__icon-image img {
+  margin-bottom: 1rem;
+}
+.features__section h5 {
+  font-size: 1.5rem;
+}
+
+.features__section p {
+  width: 90%;
+  margin: auto;
+  font-size: 1.1rem;
 }
 
 /* ================= MEDIA QUERIES (PHONES) ===================== */
 @media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-mobile);
+  }
+
+  .nav__menu {
+    gap: 0.9rem;
   }
 
   /* ========== (PHONES) HEADER ========== */
@@ -227,5 +247,13 @@ section#features {
   .header__bottom p {
     font-size: 1.2rem;
     width: 100%;
+  }
+
+  .features__container {
+    grid-template-columns: 1fr;
+  }
+
+  .features__section p {
+    width: 90%;
   }
 }

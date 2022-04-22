@@ -99,7 +99,7 @@ section {
   padding: 0.8rem 5rem;
   border-radius: 50px;
   cursor: pointer;
-  transition: all 1s ease;
+  transition: all 400ms ease;
 }
 
 .btn:hover {

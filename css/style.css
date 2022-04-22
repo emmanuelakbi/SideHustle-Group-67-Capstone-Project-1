@@ -234,7 +234,6 @@ section#features {
   }
 
   /* ========== (PHONES) NAVBAR ========== */
-
   .nav__logo img {
     width: 60%;
   }
@@ -244,15 +243,22 @@ section#features {
   }
 
   /* ========== (PHONES) HEADER ========== */
+  .header__container {
+    width: 100%;
+    background-image: url("../images/bg-curvy-mobile.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 
   .header__bottom h1 {
     font-size: 1.7rem;
-    width: 100%;
+    width: 90%;
   }
 
   .header__bottom p {
     font-size: 1.2rem;
-    width: 100%;
+    width: 82%;
   }
 
   .features__container {

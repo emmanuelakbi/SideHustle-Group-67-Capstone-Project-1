@@ -232,7 +232,7 @@ section#features {
 }
 
 /* ================= MEDIA QUERIES (PHONES) ===================== */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-mobile);
   }

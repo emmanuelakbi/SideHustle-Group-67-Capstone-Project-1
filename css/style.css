@@ -87,7 +87,11 @@ section {
 }
 
 .btn {
-  background: var(--color-cta-blue);
+  background-image: linear-gradient(
+    to left,
+    var(--color-cta-blue) 20%,
+    var(--color-cta-cyan)
+  );
   color: var(--color-white);
   font-weight: 700;
   display: inline-block;
@@ -95,12 +99,11 @@ section {
   padding: 0.8rem 5rem;
   border-radius: 50px;
   cursor: pointer;
-  transition: all 400ms ease;
+  transition: all 1s ease;
 }
 
 .btn:hover {
-  background: var(--color-cta-cyan);
-  color: var(--color-white);
+  background: var(--color-cta-blue);
 }
 /* --- INITIAL SETUP END */
 
@@ -246,7 +249,7 @@ section#features {
   .header__container {
     width: 100%;
     background-image: url("../images/bg-curvy-mobile.svg");
-    background-position: bottom;
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: contain;
   }

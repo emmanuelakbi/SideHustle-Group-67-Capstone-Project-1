@@ -233,8 +233,14 @@ section#features {
     width: var(--container-width-mobile);
   }
 
+  /* ========== (PHONES) NAVBAR ========== */
+
+  .nav__logo img {
+    width: 60%;
+  }
+
   .nav__menu {
-    gap: 0.9rem;
+    gap: 2rem;
   }
 
   /* ========== (PHONES) HEADER ========== */

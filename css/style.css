@@ -94,7 +94,7 @@ section {
   );
   color: var(--color-white);
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1rem;
   display: inline-block;
   width: fit-content;
   padding: 0.8rem 5rem;

@@ -83,7 +83,6 @@ h5 {
 
 section {
   padding: 6rem 0;
-  margin: 5rem 0;
 }
 
 .btn {
@@ -231,6 +230,61 @@ section#features {
   font-size: 1.1rem;
 }
 
+/* ================= FEATURES 2 ===================== */
+section#features2 {
+  background: var(--color-main-background);
+}
+
+.features2__container {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.features2__right h3 {
+  font-size: 2.6rem;
+  width: 80%;
+  line-height: 1.3;
+}
+
+.features2__right p {
+  font-size: 1.1rem;
+}
+
+.features2__right-icon h5 {
+  font-size: 1rem;
+}
+
+.features2__right-icon hr {
+  background-color: var(--color-cta-cyan);
+  color: var(--color-cta-cyan);
+  width: 31%;
+  height: 2px;
+}
+.features2__right h5 {
+  margin-top: 1rem;
+}
+
+.features2__right-icon a {
+  color: var(--color-cta-cyan);
+  transition: all 400ms ease;
+}
+
+.features2__right-icon {
+  transition: all 400ms ease;
+}
+
+.features2__right-icon:hover {
+  margin-left: 1rem;
+  color: var(--color-cta-blue);
+}
+
+/* ================= TEAM ===================== */
+section#team {
+  background: var(--color-main-background);
+}
+
 /* ================= MEDIA QUERIES (PHONES) ===================== */
 @media screen and (max-width: 600px) {
   .container {
@@ -243,7 +297,7 @@ section#features {
   }
 
   .nav__menu {
-    gap: 2rem;
+    gap: 1.5rem;
   }
 
   /* ========== (PHONES) HEADER ========== */
@@ -271,5 +325,29 @@ section#features {
 
   .features__section p {
     width: 90%;
+  }
+
+  /* ========== (PHONES) FEATURE 2 ========== */
+  .features2__container {
+    flex-direction: column;
+  }
+
+  .features2__icon-image img {
+    overflow: hidden;
+    margin-left: 1rem;
+    width: 90%;
+  }
+
+  .features2__right h3 {
+    width: 100%;
+    font-size: 1.3rem;
+    line-height: 3;
+  }
+
+  .features2__right hr {
+    background-color: var(--color-cta-cyan);
+    color: var(--color-cta-cyan);
+    width: 42%;
+    height: 2px;
   }
 }

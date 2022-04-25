@@ -8,7 +8,7 @@
 - Prosper Kessie [Asst. Team Leader]
 - Aniki Yusuf
 - Adebowale Adebajo
-- Vivian Adepoju
+- Vivian Adegoju
 - Samuel Badekale
 - Gabriel Ozioma
-- rajblackindian
+- Okitah Ebitimi Yuvraj

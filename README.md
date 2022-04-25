@@ -1,19 +1,14 @@
-1. Download the design files needed and follow all instructions.
+# Group 67 Capstone Project 1 [SideHustle Internship: HTML, CSS & JavaScript]
 
-2. Ensure you do not copy another team's work else your task would be disqualified.
+## Preview Link: [https://papaya-piroshki-ff58ec.netlify.app/](https://papaya-piroshki-ff58ec.netlify.app/)
 
-3. Take your time to understand the layout of the design page before coding.
+### Group Member
 
-4. No frameworks must be used, just plain CSS
-
-5. Make your work responsive across all devices using CSS flexbox or grid.
-
-6. create a repository on GitHub and upload your files to Github.
-
-7. Host your website using either GitHub pages, vercel or netlify.
-
-8. Submit the links to your repository and the live/hosted site.
-
-9. Feel free to ask questions where necessary.
-
-10. Best of luck.
+- Emmanuel Akinfulubi [Team Leader]
+- Prosper Kessie [Asst. Team Leader]
+- Aniki Yusuf
+- Adebowale Adebajo
+- Vivian Adepoju
+- Samuel Badekale
+- Gabriel Ozioma
+- rajblackindian

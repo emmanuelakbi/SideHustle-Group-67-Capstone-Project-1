@@ -1,6 +1,6 @@
-# Group 67 Capstone Project 1 [SideHustle Internship: HTML, CSS & JavaScript]
+# Group 67 Capstone Project 1 [SideHustle Internship: HTML, CSS & JS]
 
-## Preview Link: [https://papaya-piroshki-ff58ec.netlify.app/](https://papaya-piroshki-ff58ec.netlify.app/)
+## Live Link: [https://papaya-piroshki-ff58ec.netlify.app/](https://papaya-piroshki-ff58ec.netlify.app/)
 
 ### Group Member
 
